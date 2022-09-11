@@ -1,5 +1,4 @@
 getwd()
-setwd("D:/Pawni/2nd sem_BCADA/Data_Science/data")
 tv_data=read.csv("TELEVISION.csv")
 table(tv_data$Stars)
 tv_data=tv_data[-c(597,367,276),]
