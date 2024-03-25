@@ -4,7 +4,10 @@ The Telecom Churn Prediction project is a data science project implemented in R 
 
 **Basic understanding of code**
 * Collect historical data on telecom, including features such as total_day_charges, total_eve_charges, churn etc
-* Churn is the categorical data (dependable varibale)
+* Churn is the categorical data (dependable_varibale/output_variable)
+* Since its categorical we can use two test in this namely- anova & chi square
+* Anova for categorical(dependent_varible) & categorical(independent_variable)
+* Chi Square for categorical(dependent_varible) & continous(independent_variable) 
 * Perform all necessary Data Cleaning - remove/fill missing values, change data types
 * Find correlation between attributes - remove non correlated attributes(columns)
 * Build and train the model on the currect existing prices along with other attributes
